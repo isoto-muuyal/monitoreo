@@ -7,6 +7,7 @@ import { NotasComponent } from './notas/notas.component';
 import { DisplayNotesComponent } from './display-notes/display-notes.component';
 import { NotesService } from './notes.service';
 import { NotesPipe } from './notes.pipe';
+import { NewsListComponent } from './news-list/news-list.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { NotesPipe } from './notes.pipe';
     AppComponent,
     NotasComponent,
     DisplayNotesComponent,
-    NotesPipe
+    NotesPipe,
+    NewsListComponent
   ],
   imports: [
     BrowserModule,
